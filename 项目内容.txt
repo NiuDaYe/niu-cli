@@ -1,0 +1,14 @@
+二、开发脚手架
+1、cli-node
+2、cli-yargs
+3、cli-commander
+
+三、脚手架UI显示
+1、cli-ui
+
+四、命令行交互
+1、cli-inquirer-readline
+
+五、脚手架工程化
+2、workspace
+3、lerna
