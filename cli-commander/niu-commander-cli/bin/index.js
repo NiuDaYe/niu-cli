@@ -18,7 +18,7 @@ program
 
 // 注册命令
 const clone = program.command('clone <source> [destination]');
-// niuyulei-cli clone http://git.com 123
+// niu-commander-cli clone http://git.com 123
 clone
   .description('clone a repository into a newly created directory')
   .action((source, destination) => {
@@ -27,7 +27,7 @@ clone
 
 // addCommand 用于注册子命令
 const service = new commander.Command('service');
-// niuyulei-cli service start 8888
+// niu-commander-cli service start 8888
 service
   .command('start [port]')
   .description('start service at port')
@@ -35,14 +35,14 @@ service
     console.log('start service at port', port);
   });
 
-//niuyulei-cli service stop
+//niu-commander-cli service stop
 service.command('stop')
   .description('stop service')
   .action(() => {
     console.log('stop service');
   });
 
-// niuyulei-cli cmd 123
+// niu-commander-cli cmd 123
 program
   .arguments('<cmd> [env]')
   .description('test command')
