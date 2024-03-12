@@ -12,3 +12,8 @@
 五、脚手架工程化
 2、workspace
 3、lerna
+
+以上为基础知识
+
+六、脚手架公共模块
+1、cli-public 

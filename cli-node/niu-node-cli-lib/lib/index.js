@@ -6,6 +6,7 @@ module.exports = {
     return a * b;
   },
   init({ option, param }) {
+    console.log("=====niu-node-cli-lib======");
     console.log('执行init', option, param);
   }
 }

@@ -1,6 +1,6 @@
 {
-  "name": "niuyulei-cli-lib",
-  "version": "1.1.0",
+  "name": "niu-node-cli-lib",
+  "version": "1.1.2",
   "description": "",
   "main": "lib/index.js",
   "scripts": {

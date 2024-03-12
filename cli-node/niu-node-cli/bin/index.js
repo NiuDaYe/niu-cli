@@ -1,7 +1,8 @@
 #!/usr/bin/env node
-const lib = require('niuyulei-cli-lib')
+const lib = require('../../niu-node-cli-lib/lib')
 
 
+console.log('=====niu-node-cli======',);
 
 // 注册一个命令  niuyulei-cli init --name pro
 const argv = require('process').argv;
