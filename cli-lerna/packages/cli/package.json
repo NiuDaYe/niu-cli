@@ -22,6 +22,8 @@
     "test": "node ./__tests__/cli.test.mjs"
   },
   "dependencies": {
+    "niu-lerna-a": "^0.0.1",
+    "niu-lerna-b": "^0.0.1",
     "yargs": "^17.7.2"
   },
   "type": "module",
