@@ -1,0 +1,17 @@
+{
+  "name": "cli-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "chalk": "node src/chalk.mjs",
+    "ora": "node src/ora.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "ora": "^8.0.1"
+  }
+}

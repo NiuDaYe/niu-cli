@@ -1,0 +1,31 @@
+{
+  "name": "niu-lerna-cli",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "niu",
+  "homepage": "",
+  "license": "ISC",
+  "main": "src/cli.mjs",
+  "module": "dist/cli.module.js",
+  "bin": {
+    "niu-lerna-cli": "bin/cli.mjs"
+  },
+  "directories": {
+    "lib": "dist",
+    "test": "__tests__"
+  },
+  "files": [
+    "bin",
+    "dist"
+  ],
+  "scripts": {
+    "test": "node ./__tests__/cli.test.mjs"
+  },
+  "dependencies": {
+    "yargs": "^17.7.2"
+  },
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  }
+}

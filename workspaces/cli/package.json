@@ -1,0 +1,21 @@
+{
+  "name": "ws-niu-cli",
+  "version": "1.1.2",
+  "description": "",
+  "main": "bin/index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "ws-niu-cli": "bin/cli.mjs"
+  },
+  "dependencies": {
+    "ws-niu-a": "^1.1.0",
+    "ws-niu-b": "^1.1.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

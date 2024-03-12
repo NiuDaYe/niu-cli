@@ -1,0 +1,19 @@
+{
+  "name": "niuyulei-cli",
+  "version": "1.1.0",
+  "description": "",
+  "bin": {
+    "niuyulei-cli": "bin/index.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "niuyulei-cli-lib": "^1.1.0",
+    "yargs": "^17.7.2"
+  }
+}

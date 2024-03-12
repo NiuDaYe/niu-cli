@@ -1,0 +1,17 @@
+{
+  "name": "ws-niu-b",
+  "version": "1.1.2",
+  "description": "",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ora": "^8.0.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

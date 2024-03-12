@@ -1,0 +1,25 @@
+{
+  "name": "niu-lerna-a",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "niu",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/index.mjs",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "node ./__tests__/a.test.mjs"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
