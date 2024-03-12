@@ -29,3 +29,5 @@
  - niu-lerna-cli@0.0.1
 
 
+全局安装 npm i -g niu-lerna-cli
+
