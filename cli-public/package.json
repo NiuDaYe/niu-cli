@@ -1,0 +1,10 @@
+{
+  "name": "@niu-cli/cli",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^5.5.4"
+  }
+}
