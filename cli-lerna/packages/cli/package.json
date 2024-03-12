@@ -1,6 +1,6 @@
 {
   "name": "niu-lerna-cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "> TODO: description",
   "author": "niu",
   "homepage": "",
@@ -22,8 +22,8 @@
     "test": "node ./__tests__/cli.test.mjs"
   },
   "dependencies": {
-    "niu-lerna-a": "^0.0.1",
-    "niu-lerna-b": "^0.0.1",
+    "niu-lerna-a": "^0.0.2",
+    "niu-lerna-b": "^0.0.2",
     "yargs": "^17.7.2"
   },
   "type": "module",
