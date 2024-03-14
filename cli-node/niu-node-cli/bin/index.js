@@ -12,7 +12,7 @@ if (options.length > 1) {
   let [option, param] = options;
   option = option.replace('--', '')
 
-  if (lib[command]) { //  lib[command], niu-cli-lib内的方法去匹配
+  if (lib[command]) { //  lib[command], niu-node-cli-lib内的方法去匹配
     lib[command]({ option, param })
     // console.log('执行 Init流程');
   } else {

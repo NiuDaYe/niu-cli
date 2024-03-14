@@ -1,5 +1,5 @@
 {
-  "name": "@niu-cli/cli",
+  "name": "root",
   "private": true,
   "workspaces": [
     "packages/*"

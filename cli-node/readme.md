@@ -27,7 +27,7 @@
   链接本地库文件:
   cd niu-node-cli-lib
   npm link
-  cd niu-cli
+  cd niu-node-cli
   npm link niu-node-cli-lib
 
   取消链接本地库文件:
