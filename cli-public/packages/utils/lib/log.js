@@ -1,5 +1,6 @@
-const log = require('npmlog');
-const isDebug = require('./isDebug');
+import log from 'npmlog';
+import isDebug from './isDebug.js';
+
 
 // 日志类型：verbose info warn error timing http notice silly silent
 if (isDebug()) {
@@ -12,4 +13,4 @@ log.heading = 'niu-public-cli'; // 修改日志的前缀
 
 log.addLevel('success', 2000, { fg: 'green', bg: 'red', bold: true }); // 自定义成功日志样式
 
-module.exports = log
+export default log

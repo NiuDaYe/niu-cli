@@ -1,12 +1,14 @@
 
-const commander = require('commander');
-const semver = require('semver');
-const chalk = require('chalk');
-const createInitCommand = require('@niu-public-cli/init');
-const { program } = commander;
-const pkg = require('../package.json');
-const { log, isDebug } = require('@niu-public-cli/utils')
-
+import path from 'node:path';
+import { program } from 'commander';
+import semver from 'semver';
+import fse from 'fs-extra';
+import { dirname } from 'dirname-filename-esm';
+import createInitCommand from '@niu-public-cli/init';
+import { log, isDebug } from '@niu-public-cli/utils';
+const __dirname = dirname(import.meta);
+const pkgPath = path.resolve(__dirname, '../package.json');
+const pkg = fse.readJsonSync(pkgPath);
 
 // 检查node版本
 function checkNodeVersion() {
@@ -27,7 +29,7 @@ process.on('uncaughtException', (e) => {
   process.exit(1);
 });
 
-module.exports = function (argv) {
+export default function (argv) {
   log.info('cli====>>>>>>>>', argv);
   program
     .version(pkg.version)

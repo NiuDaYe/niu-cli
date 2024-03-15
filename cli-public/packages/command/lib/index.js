@@ -1,6 +1,6 @@
-const pkg = require('../package.json');
+// const pkg = require('../package.json');
 
-class command {
+export default class command {
     constructor(instance) {
         if (!instance) {
             throw new Error('instance is required');
@@ -56,4 +56,4 @@ class command {
 }
 
 
-module.exports = command;
+// export default command;

@@ -1,5 +1,5 @@
-const Command = require('@niu-public-cli/command');
-const { log } = require('@niu-public-cli/utils');
+import Command from '@niu-public-cli/command';
+import { log } from '@niu-public-cli/utils';
 
 class initCommand extends Command {
     get command() {
@@ -35,4 +35,4 @@ function Init(instance) {
     return new initCommand(instance);
 }
 
-module.exports = Init;
+export default Init;
