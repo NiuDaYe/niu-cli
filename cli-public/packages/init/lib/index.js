@@ -19,7 +19,12 @@ class initCommand extends Command {
 
     action([name, options]) {
         log.verbose('init action=====>:', name, options);
-
+        new Promise(function (resolve, reject) {
+            resolve()
+        }).then(function () {
+            throw new Error('Error is from cli-public/packages/init/lib/indexjs Promise错误')
+        })
+        throw new Error('Error is from cli-public/packages/init/lib/indexjs 普通错误')
     }
 
     preAction() {

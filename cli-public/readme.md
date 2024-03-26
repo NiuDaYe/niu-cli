@@ -3,7 +3,7 @@
   1.新建bin文件夹, clijs放到bin目录
   2.cli项目内packagejson 的files属性必须包含bin文件
 
-三、添加依赖到cli:   
+三、添加依赖到cli:
   lerna add import-local packages/cli
   lerna add npmlog packages/cli
   lerna add commander packages/cli
