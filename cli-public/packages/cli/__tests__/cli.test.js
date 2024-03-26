@@ -1,7 +1,12 @@
-'use strict';
+import path from 'node:path';
+import { execa } from 'execa';
 
-const cli = require('..');
-const assert = require('assert').strict;
+const CLI = path.join(__dirname, '../bin/cli.js');
+const bin = () => (...args) => execa(CLI, args);
 
-assert.strictEqual(cli(), 'Hello from cli');
-console.info("cli tests passed");
+
+// 运行错误的命令
+test('this is cli-testjs  error', async () => {
+  const res = await bin()('iii');
+  console.log("🚀 ~ test ~ stderr:", res.stderr)
+})

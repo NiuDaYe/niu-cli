@@ -26,6 +26,7 @@ export default function createCLI() {
     .usage('<command> [options]')
     .hook('preAction', checkNodeVersion);
 
+  // 监听option特定选项
   program.on('option:debug', function () {
     console.log("🚀 ~ program.opts():", program.opts())
     if (program.opts().debug) {
@@ -33,6 +34,7 @@ export default function createCLI() {
     }
   })
 
+  // 未知命令监听
   program.on('command:*', function (command) {
     log.error('未知的命令' + command[0])
   })

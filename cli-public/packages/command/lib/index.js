@@ -10,6 +10,7 @@ export default class command {
         const cmd = this.program.command(this.command);
         cmd.description(this.description);
 
+        // 脚手架hook注册
         cmd.hook('preAction', () => {
             this.preAction();
         });

@@ -14,8 +14,12 @@
   niu-public-cli init aa -f -vv
 
 
+五、自动化测试，新增jest, execa包
+  lerna add jest packages/cli --dev
+  lerna add execa packages/cli --dev
 
-
+  新建babel.config.js 并安装Babel
+  lerna add @babel/preset-env packages/cli --dev
 
 
   semver: npm库a.b.c 格式的数值进行比较,一般用于版本比较
