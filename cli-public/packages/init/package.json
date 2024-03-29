@@ -24,7 +24,10 @@
     "url": "https://github.com/NiuDaYe/niu-cli/issues"
   },
   "dependencies": {
-    "@niu-public-cli/command": "^0.0.0"
+    "@niu-public-cli/command": "^0.0.0",
+    "fs-extra": "^11.2.0",
+    "ora": "^8.0.1",
+    "path-exists": "^5.0.0"
   },
-  "type":"module"
+  "type": "module"
 }
