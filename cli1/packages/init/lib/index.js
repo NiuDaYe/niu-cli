@@ -27,9 +27,9 @@ class initCommand extends Command {
         // new Promise(function (resolve, reject) {
         //     resolve()
         // }).then(function () {
-        //     throw new Error('Error is from cli-public/packages/init/lib/indexjs Promise错误')
+        //     throw new Error('Error is from cli1/packages/init/lib/indexjs Promise错误')
         // })
-        // throw new Error('Error is from cli-public/packages/init/lib/indexjs 普通错误')
+        // throw new Error('Error is from cli1/packages/init/lib/indexjs 普通错误')
 
         // 1.选择项目模板，生成项目信息
         const selectTemplate = await createTemplate(name, options);

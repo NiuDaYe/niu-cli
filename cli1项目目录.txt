@@ -1,0 +1,26 @@
+一、cli1 为脚手架代码, cli1-template为脚手架模板文件, other文件夹为脚手架相关知识。
+
+二、开发脚手架 (other文件夹)
+1、cli-node
+2、cli-yargs
+3、cli-commander
+
+三、脚手架UI显示 (other文件夹)
+1、cli-ui
+
+四、命令行交互 (other文件夹)
+1、cli-inquirer-readline
+
+五、脚手架工程化 (other文件夹)
+2、workspace
+3、lerna
+
+以上为基础知识
+
+六、脚手架模块开发
+1、cli1 
+
+七、脚手架1
+1、cli1-template文件夹为脚手架模板文件。
+2、在任意目录，例如新建test-project文件夹内执行 niu-public-cli init --force 即可新建项目。
+
