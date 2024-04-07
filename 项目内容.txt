@@ -20,3 +20,4 @@
 
 七、脚手架1
 1、react脚手架
+2、在任意目录，例如test-project文件夹内执行 niu-public-cli init --force 即可新建项目。

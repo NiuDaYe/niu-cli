@@ -2,6 +2,8 @@ import Command from '@niu-public-cli/command';
 import { log } from '@niu-public-cli/utils';
 import createTemplate from './createTemplate.js';
 import downloadTemplate from './downloadTemplate.js';
+import installTemplate from './installTemplate.js';
+
 
 class initCommand extends Command {
     get command() {
@@ -15,7 +17,8 @@ class initCommand extends Command {
     get options() {
         return [
             ['-f, --force', '是否强制更新', false],
-            ['-vv, --vvvv', '是否强制vv', false]
+            // ['-vv, --vvvv', '是否强制vv', false],
+            ['-t , --type <type>', '项目类型(值: project/page)']
         ];
     }
 
@@ -33,6 +36,7 @@ class initCommand extends Command {
         // 2.下载项目模板到缓存目录
         await downloadTemplate(selectTemplate);
         // 3. 安装项目模板到项目目录
+        await installTemplate(selectTemplate, options)
     }
 
     preAction() {

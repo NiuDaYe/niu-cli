@@ -70,7 +70,6 @@ function makeTargetPath() {
 
 export default async function createTemplate(name, options) {
   const addType = await getAddType(); //  project | page
-
   if (addType === ADD_TYPE_PROJECT) { // write project name
     const projectName = await getAddName();
     const addTemplate = await getAddTemplate(); // 选择模板
