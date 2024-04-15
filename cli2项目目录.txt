@@ -1,0 +1,5 @@
+这个项目是Lint项目
+
+一、初始化项目、新建cli2文件夹 在文件夹:
+  1、lerna init
+  2、lerna create lint packages/lint
