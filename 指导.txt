@@ -1,0 +1,17 @@
+脚手架的价值是什么
+1、从无到有 （能力建设）
+2、提升效率 （降本增效）
+
+有哪些常见脚手架, 说清楚用法和原理
+1、npm, npm init -y 可以初始化一个项目。 npm install 可以根据package.json安装依赖
+2、webpack-cli、vue-cli、creat-react-app
+
+找到痛点 解决问题。
+
+CI/CD是持续集成(ContinuousIntegration)和持续部署(ContinuousDeployment)简称，是一种软件工程实践，目的是加快软件的开发和交付速度。
+
+对脚手架的理解
+1、实现原理
+2、开发流程
+3、你了解的脚手架及用途
+4、脚手架开发经验
